@@ -1,0 +1,504 @@
+
+
+
+/* start of styling and containment for theader */
+.header{display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        height: 80px;
+      /*  position: fixed;*/
+
+      }
+.logo{display: flex;
+      width: 186px;
+      height: 80px;
+      justify-content: space-around;
+      }
+.logogrph{display: flex;
+          justify-content: flex-end;
+          width: 103px;
+          align-items: center;
+          }
+.logojpg{max-width: 70px;
+        max-height: 60px;
+        }
+.logotxt{display: flex;
+        justify-content: flex-end;
+        width: 83px;
+        align-items: center;
+      }
+.mytimes{font-family: verdana;
+        font-size: 14px;
+        font-weight: bold;
+        color: mediumaquamarine;
+      }
+.nav{display: flex;
+    height: 80px;
+    width: 300px;
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: mediumaquamarine;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+/* end of header styling and containment */
+
+h1,h2,h3
+{font-family: georgia;
+
+}
+
+/*
+h2
+{font-size: 36px;
+ width: 300px;
+
+ }
+}
+p
+{font-size: 18px;
+ width: 300px;
+}
+*/
+
+/*start of main styling and flex containment */
+
+/*
+justify-content: center;
+}
+*/
+.mainwbg h1
+{font-family: georgia;
+font-weight: bold;
+font-size: 40px;
+width: 600px;
+height: 220px;
+color: white;
+padding-top: 70px;
+padding-left: 20px;
+background-image:url("images/img-story-main.png");
+
+}
+
+
+
+.maintxt p
+{font-family: georgia;
+font-size: 17px;
+width: 625px;
+height: 189px;
+
+margin-bottom: : 20px;
+}
+
+/* star main flex containent */
+.contmain
+{display: flex;
+flex-direction: column;
+width: 650px;
+height: 394px;
+
+justify-content: space-between;
+}
+/* end of main flex containment */
+
+/* End of main styling and flex contaiment */
+
+/* Start of columns 1 and 2 styling and flex containment */
+/*
+.s3
+{
+width: 300px;
+height: 42px;
+}
+*/
+.line1st h2
+{
+font-size: 32px;
+height:89px;
+width: 300px;
+font-weight: bold;
+
+}
+/*
+.s2
+{
+width: 300;
+height: 26;
+}
+*/
+.txt p
+{
+height: 89px;
+width: 300px;
+
+}
+/*
+.s1
+{
+width: 300px;
+height: 47px;
+}
+*/
+.line2nd h2
+{
+font-size: 33px;
+height: 182px;
+width: 300px;
+text-align: center;
+color: white;
+padding-top: 60px;
+
+}
+
+/* Start of images for cols 1 and 2 */
+#colwbg1st
+{background-image:url("images/img-story-2.png");
+}
+
+#colwbg2nd
+{background-image:url("images/img-story-3.png");
+}
+/* End of images for cols 1 and 2 */
+/* start of columns 1 and 2 flex containment */
+.colcont
+{display: flex;
+flex-direction: column;
+width: 300px;
+height: 560px;
+
+
+}
+/* end of cols 1 and 2 flex containment */
+/* start of flex containment joining cols 1 and 2 */
+.contcols1and2{display: flex;
+width: 625px;
+height: 560px;
+justify-content:space-between;
+}
+/* end of flex containment joining cols 1 and 2 */
+
+/* End of cols 1 and 2 styling and flex containment */
+
+/*start flex containment of main with cols 1 and 2 */
+
+.contmainwcols1and2
+{
+display: flex;
+flex-direction: column;
+width: 625px;
+height: 1125px;
+justify-content: space-between;
+
+}
+/* end of all styling and containment for main plus cols 1 and 2 */
+
+/* Start of styling and flex containment for col 3 */
+
+.col3line1st h2
+{
+font-size: 33px;
+width: 300px;
+height: 160;
+
+
+}
+
+.col3txt p
+{
+font-size: 18px;
+width: 300px;
+height: 275px;
+
+}
+
+.col3line2nd h2
+{
+font-size: 32px;
+width: 300px;
+height: 157px;
+text-align: center;
+color: white;
+padding-top: 90px;
+
+}
+
+.col32ndtxt p
+{
+font-size: 18px;
+width: 300px;
+height: 215px;
+
+}
+
+
+#colwbg3rd
+{background-image:url("images/img-story-1.png");
+}
+
+.colcont3rd
+{display: flex;
+flex-direction: column;
+width: 300px;
+height: 897px;
+justify-content: space=between;
+
+}
+
+/* End of styling and flex containment col 3  */
+
+/* Start of styling and flex ontainment for col 4 */
+/* Start  top col4 */
+
+#cook
+{
+width: 240px;
+height: 240px;
+}
+#head4th
+{
+font-size: 16px;
+font-family: georgia;
+font-weight:bold;
+text-align: center;
+}
+.top4thcol
+{display: flex;
+flex-direction: column;
+width:240px;
+height: 300px;
+}
+/* End style and flex-contain TOP col 4 */
+/* Start biteslines */
+.col4txt
+{
+font-family: helvetica;
+font-size: 11px;
+font-weight: normal;
+width: 240px;
+height: 1px;
+padding-left: 20px;
+/*padding-top: 5px;
+padding-bottom: 1px;
+*/
+margin-top: 23px;
+/*margin-bottom: 17px;*/
+}
+
+.col4grph
+{
+font-family: helvetica;
+text-align: center;
+font-size: 12px;
+font-weight: normal;
+width: 240px;
+height: 1px;
+}
+.biteslines
+{
+display: flex;
+flex-direction: column;
+width: 240px;
+height: 360px;
+color: dimgray;
+}
+/*
+padding-top: 1px;
+padding-bottom: 1px;
+*/
+/* End style and flex containment for biteslines */
+
+.cont4thcol
+{
+display: flex;
+flex-direction: column;
+width: 240px;
+height: 660px;
+
+}
+/* End of flex containment for col 4 */
+
+
+.contcols3and4
+{
+display: flex;
+flex-direction: row;
+width: 600px;
+height: 897px;
+
+justify-content: space-between;
+}
+/* End oc style and flex containment joining cols 3 and 4 */
+
+
+.contallstories
+{
+display: flex;
+flex-direction: row;
+width: 1275px;
+height: 1125px;
+justify-content: space-between;
+border: 1px solid red;
+}
+/* End of flex container joining coll 3 and 4 to all stories */
+
+
+/*
+
+}
+
+.header{display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        height: 80px;
+
+      }
+.logo{display: flex;
+      width: 186px;
+      height: 80px;
+      justify-content: space-around;
+      }
+.logogrph{display: flex;
+          justify-content: flex-end;
+          width: 103px;
+          align-items: center;
+          }
+.logojpg{max-width: 70px;
+        max-height: 60px;
+        }
+.logotxt{display: flex;
+        justify-content: flex-end;
+        width: 83px;
+        align-items: center;
+      }
+.mytimes{font-family: verdana;
+        font-size: 14px;
+        font-weight: bold;
+        color: mediumaquamarine;
+      }
+*/
+.foot
+{
+width: 975px;
+height: 315px;
+background-color: mediumaquamarine;
+}
+
+.fnav
+{
+display: flex;
+width: 230px;
+height: 20px;
+font-family: verdana;
+font-size: 12px;
+font-weight: normal;
+justify-content: space-around;
+color: black;
+}
+
+.footspace
+{
+width: 30px;
+height: 20px;
+}
+
+.ffnav p
+{
+font family: georgia;
+font-size: 18px;
+font-weight: bold;
+width:120px;
+height: 20px;
+color:white;
+border-right: 2px solid white;
+text-align: center;
+}
+
+.foot1stline
+{
+display: inline-flex;
+flex-direction: row;
+width: 975px;
+height: 30px;
+justify-content: center;
+align-items: center;
+
+padding-top: 125px;
+}
+
+
+.copyw p
+{
+font-family: verdana;
+font-size: 14px;
+width: 975px;
+height: 40px;
+color: black;
+text-align: center;
+
+  }
+
+
+/*
+
+top4thcol
+{display: flex;
+flex-direction: column;
+width:240px;
+height: 300px;
+}
+
+cont4thcol
+{display: flex;
+flex-direction: column;
+width: 240px;
+height: 500px;
+border: 1px solid red;
+}
+
+cont4thcol
+{display: flex
+flex-direction: column;
+width: 240px;
+height: 500px;
+border: 1px solid red;
+}
+
+
+/*
+.cont2ndcol
+{display: flex;
+flex-direction: column;
+width: 300px;
+height: 600px;
+justify-content: space-between;
+
+}
+.col21stline
+{
+height: 161px;}
+.col2txt
+{
+height:140px;
+}
+.col22ndline
+{background-image:url("images/img-story-3.png");
+height: 299px;
+text-align: center;
+color: white;
+padding-top: 49px;
+}
+
+*/
+
+
+/*
+h3
+{font-family: helvetica;
+font-size: 14px;
+font-weight: normal;
+width: 300px;
+height: 15px;
+*/
